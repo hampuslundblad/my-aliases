@@ -5,6 +5,21 @@ alias bb='code ~/.zshrc'
 alias b='source ~/.zshrc'
 ```
 
+# .ps
+
+```
+Set-Alias -Name g -Value git
+
+function bb {
+    code $profile
+}
+
+function b {
+    . $profile
+}
+```
+
+
 # git
 ```bash
 git config --global alias.co checkout
