@@ -7,7 +7,7 @@ alias b='source ~/.zshrc'
 
 # .ps
 
-```
+```powershell
 Set-Alias -Name g -Value git
 
 function bb {
